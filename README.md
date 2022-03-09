@@ -1,6 +1,6 @@
 # JAVA NEURAL NETWORK LIBRARY
 
-## XOR example:
+XOR example:
 
 ```java
 // dense neural netowork with learning rate 0.3
@@ -46,7 +46,7 @@ for (int i = 0; i < 10000; i++) {
 trainingData.forEach(p -> System.out.println(Arrays.toString(p.first()) + " -> " + Arrays.toString(neuralNetwork.forward(p.second()))));
 ```
 
-## Convolutional Neural Network example (MNIST)
+Convolutional Neural Network example (MNIST):
 
 ```java
 // convolutional neural network with learning rate 0.4
