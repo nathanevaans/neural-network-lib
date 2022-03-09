@@ -1,6 +1,42 @@
 # JAVA NEURAL NETWORK LIBRARY
 
-XOR example:
+## Features:
+
+- Activation Functions
+  - ReLU
+  - Leaky ReLU
+  - Sigmoid
+  - Tanh
+- Layers
+  - Convolutional
+  - Dense
+- Optimisers
+  - Stochastic Gradient Descent
+- Weight Initialisation
+  - Random
+
+## Future Features:
+
+- Layers
+  - Max Pooling
+  - Average Pooling
+  - Softmax
+  - Dropout
+- Optimisers
+  - Momentum
+  - RMSProp
+  - Adam
+- Weight Initialisation
+  - Xavier
+  - Normalised Xavier
+  - He
+- Error Functions
+  - Mean Squared Error
+  - Binary Cross Entropy Loss
+  - Sum Squared Error
+  - Binary Cross Entroy Loss (from logitis)
+
+# XOR example:
 
 ```java
 // dense neural netowork with learning rate 0.3
@@ -46,7 +82,7 @@ for (int i = 0; i < 10000; i++) {
 trainingData.forEach(p -> System.out.println(Arrays.toString(p.first()) + " -> " + Arrays.toString(neuralNetwork.forward(p.second()))));
 ```
 
-Convolutional Neural Network example (MNIST):
+# Convolutional Neural Network example (MNIST):
 
 ```java
 // convolutional neural network with learning rate 0.4
